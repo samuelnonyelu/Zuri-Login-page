@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 /* General styling */
 
 *{
@@ -7,14 +8,15 @@
 }
 body{
     margin: 0 auto;
-    background: rgb(3,255,220);
-    background: linear-gradient(90deg, rgba(3,255,220,1) 0%, rgba(0,255,8,1) 100%);
+    background: rgb(0,24,87);
+    background: linear-gradient(90deg, rgba(0,24,87,1) 0%, rgba(0,215,255,1) 100%);
+    font-family: 'Montserrat', sans-serif;
 }
 /* form styling */
 .form{
     display: block;
-    margin: 15% auto;
-    width: 60%;
+    margin: 4% auto 5%;
+    width: 80%;
     max-width: 500px;
     text-align: center;
     border: 1px solid #cbdccbc9;
@@ -25,6 +27,8 @@ body{
 .form_title{
     text-align: center;
     margin-top: 0.8em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 input {
@@ -95,6 +99,27 @@ input:focus{
     outline: 1px solid gray;
 }
 
+/* success page */
+
+.success{
+    margin: 0 auto;
+}
+.img-success{
+    width: 100%;
+    max-width: 500px;
+}
+.text-success{
+    margin: 15% auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.xx{
+    background-image: url(/images/Login.jpg);
+    background-repeat:no-repeat;
+}
+
+/* media queries */
 @media (min-width: 700px){
     .form-input{
         display: flex;
